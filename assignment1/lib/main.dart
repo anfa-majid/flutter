@@ -55,6 +55,7 @@ class _ProfilePageState extends State<ProfilePage> {
     'eventPerson': 'John Doe',
     'imagePath': 'assets/images/download1.jpeg',
   },
+  
 ];
 
 
@@ -142,7 +143,7 @@ class _ProfilePageState extends State<ProfilePage> {
           // Content Section
           Expanded(
             child: SizedBox(
-              height: MediaQuery.sizeOf(context).height * 0.45,
+             height: MediaQuery.sizeOf(context).height * 0.45,
               child: ListView.builder(
                 itemCount: selectedIndex == 2
                     ? 1
